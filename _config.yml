@@ -1,12 +1,13 @@
 # Site settings
-title: Diyuhuo666's Blog
+title: 欢迎来到地狱火的主页
 email: 2487935515@qq.com
 description: >-
-  Welcome to my personal website! Built with Jekyll and GitHub Pages.
-  This is where I share my projects, thoughts, and experiments.
+  刘博文20231060079第十组的个人主页。
+  这里是地狱火的领地，欢迎来到我的世界！
 baseurl: ""
 url: "https://Diyuhuo666.github.io"
 github_username: Diyuhuo666
+author: 刘博文
 
 # Build settings
 theme: minima

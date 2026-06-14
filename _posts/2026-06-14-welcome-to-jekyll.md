@@ -1,28 +1,32 @@
 ---
 layout: post
-title: "Welcome to My Blog!"
+title: "欢迎来到地狱火的主页！"
 date: 2026-06-14
+tags: [Jekyll, GitHub Pages, 地狱火]
 ---
 
-Hello everyone! Welcome to my very first blog post!
+🔥 欢迎来到**地狱火**的领地！
 
-## What's This About?
+## 🔥 关于这个网站
 
-This is my personal website hosted on GitHub Pages, built with Jekyll. I'm learning web development and this is my first step into the world of static site generation.
+这是我的个人主页，基于 **Jekyll** 搭建，托管在 **GitHub Pages** 上。
 
-## Why Jekyll?
+## 💻 技术栈
 
-Jekyll is a static site generator that makes it easy to create blogs and websites. It's perfect for GitHub Pages because:
+- **Jekyll** — 静态网站生成器
+- **GitHub Pages** — 免费静态网站托管
+- **Markdown** — 写文章超方便
+- **Docker** — 本地开发环境（不用装 Ruby！）
 
-1. **Markdown support** - Write posts in simple Markdown
-2. **No database** - Everything is static files
-3. **Free hosting** - GitHub Pages hosts it for free
-4. **Version control** - Everything is tracked with Git
+## 🚀 下一步计划
 
-## What's Next?
-
-I'll be posting more about my projects, learning experiences, and tech experiments. Stay tuned!
+- [ ] 添加更多博客文章
+- [ ] 美化页面（已用科技蓝主题！）
+- [ ] 添加评论功能
+- [ ] 添加访问统计
 
 ---
 
-*Happy coding! 🚀*
+🔥 **地狱火永恒燃烧！** 🔥
+
+*P.S. 这是我的第一篇博客文章，后续会持续更新～*

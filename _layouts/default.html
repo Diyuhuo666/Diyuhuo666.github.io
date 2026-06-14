@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>刘博文20231060079第十组</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% feed_meta %}
   {% seo %}
@@ -11,12 +11,17 @@
 <body>
   <header>
     <div class="container">
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav>
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about' | relative_url }}">About</a>
-        <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
-      </nav>
+      <div class="header-content">
+        <div class="logo">
+          <span class="fire-icon">🔥</span>
+          <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        </div>
+        <nav>
+          <a href="{{ '/' | relative_url }}">🏠 首页</a>
+          <a href="{{ '/about' | relative_url }}">👤 关于</a>
+          <a href="https://github.com/{{ site.github_username }}" target="_blank">🐙 GitHub</a>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -28,7 +33,9 @@
 
   <footer>
     <div class="container">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> &amp; <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+      <p>🔥 {{ site.title }} · 刘博文20231060079第十组</p>
+      <p class="footer-sub">Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & 
+        <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> · 地狱火永恒燃烧 🔥</p>
     </div>
   </footer>
 </body>
