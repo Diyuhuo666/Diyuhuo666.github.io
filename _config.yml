@@ -1,0 +1,27 @@
+# Site settings
+title: Diyuhuo666's Blog
+email: 2487935515@qq.com
+description: >-
+  Welcome to my personal website! Built with Jekyll and GitHub Pages.
+  This is where I share my projects, thoughts, and experiments.
+baseurl: ""
+url: "https://Diyuhuo666.github.io"
+github_username: Diyuhuo666
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme settings
+minima:
+  date_format: "%Y-%m-%d"
+  social_links:
+    - { platform: github, user_url: "https://github.com/Diyuhuo666" }
+
+# Exclude from build
+exclude:
+  - README.md
+  - docker-compose.yml
+  - Gemfile.lock
