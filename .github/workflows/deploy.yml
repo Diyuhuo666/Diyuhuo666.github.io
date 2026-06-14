@@ -2,7 +2,7 @@ name: Deploy Jekyll to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -19,14 +19,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
+          bundler-cache: false
 
-      - name: Install dependencies
+      - name: Install Jekyll and build
         run: |
-          gem install bundler
-          bundle install
-
-      - name: Build site
-        run: bundle exec jekyll build
+          gem install jekyll minima jekyll-feed jekyll-seo-tag
+          jekyll build
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
